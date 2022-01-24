@@ -82,7 +82,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Hexor'xD (@Its_Hexor)",
+        f"Powered By: Hexor'xD (@abhinasroy)",
         (255, 255, 255),
         font=font,
     )
@@ -108,7 +108,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "@RobertTg"
+        user.first_name = "@abhinasroy"
     usar = user
     wew = usar.id
     try:
